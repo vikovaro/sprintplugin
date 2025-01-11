@@ -1,0 +1,4 @@
+name: sprintplugin
+version: '1.0'
+main: com.vikovaro.sprintplugin.SprintPlugin
+api-version: '1.21'

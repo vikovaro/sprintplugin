@@ -1,0 +1,11 @@
+name: sprintplugin
+version: '1.0'
+main: com.vikovaro.sprintplugin.Plugin
+api-version: '1.21'
+commands:
+  itemmeta:
+    description: get item meta
+    usage: /itemmeta
+  sprintplugin:
+    description: reload - reload config; config - get config.
+    usage: /sprintplugin

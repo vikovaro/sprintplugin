@@ -1,0 +1,15 @@
+max-run-time: 15
+min-run-time: 5
+max-weight: 400
+items-weight:
+  "DIAMOND_SWORD": 40
+  "DIAMOND_PICKAXE": 40
+  "SNOWBALL": 1
+  "IRON_NUGGET": 1
+
+##################################
+#  __        __   __  _   _   __ #
+# |  || /|  / |  |  ||_) /_\ |   #
+# |  ||/ | _|_|_ |__||  /   \|__ #
+#          \   /                 #
+##################################
