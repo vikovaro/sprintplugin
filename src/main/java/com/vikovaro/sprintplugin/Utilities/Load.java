@@ -26,9 +26,9 @@ public class Load {
         try {
             instance.config = Plugin.getInstance().getConfig();
 
-            Plugin.MAX_RUN_TIME = Integer.getInteger(valueOf(Plugin.getInstance().config.getInt("max-run-time")));
-            Plugin.MIN_RUN_TIME = Integer.getInteger(valueOf(Plugin.getInstance().config.getInt("min-run-time")));
-            Plugin.MAX_WEIGHT = Integer.getInteger(valueOf(Plugin.getInstance().config.getInt("max-weight")));
+            Plugin.MAX_RUN_TIME = Integer.parseInt(valueOf(Plugin.getInstance().config.getString("max-run-time")));
+            Plugin.MIN_RUN_TIME = Integer.parseInt(valueOf(Plugin.getInstance().config.getString("min-run-time")));
+            Plugin.MAX_WEIGHT = Integer.parseInt(valueOf(Plugin.getInstance().config.getString("max-weight")));
 
             ConfigurationSection _convertCommands = Plugin.getInstance().config.getConfigurationSection("items-weight");
             if (_convertCommands != null) {

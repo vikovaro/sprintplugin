@@ -24,7 +24,7 @@ public class CommandHandler implements CommandExecutor {
         }
 
         if (command.getName().equalsIgnoreCase("sprintplugin")) {
-            if (args.length > 0) {
+            if (args.length == 0) {
                 sender.sendMessage("Provide a valid argument.");
             } else {
                 handleOpCommands(sender, args[0]);

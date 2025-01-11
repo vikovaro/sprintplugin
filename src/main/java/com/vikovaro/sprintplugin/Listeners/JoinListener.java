@@ -58,8 +58,8 @@ public class JoinListener implements Listener {
                 double maxSprintTime = Plugin.playersMaxSprintTime.get(player.getName());
                 double currentSprintTime = Plugin.playersCurrentSprintTime.get(player.getName());
 
-                player.sendMessage("max sprint time: "+maxSprintTime);
-                player.sendMessage("current sprint time: "+currentSprintTime);
+//                player.sendMessage("max sprint time: "+maxSprintTime);
+//                player.sendMessage("current sprint time: "+currentSprintTime);
 
                 if (!player.isSprinting()) {
                     if (currentSprintTime < maxSprintTime) {
