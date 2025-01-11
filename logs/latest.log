@@ -1,9 +1,0 @@
-[16:14:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.2+13-LTS-58; Oracle Corporation null) on Windows 10 10.0 (amd64)
-[16:14:10] [ServerMain/INFO]: [bootstrap] Loading Purpur 1.21.1-2297-ver/1.21.1@ef12ede (2024-08-22T09:13:58Z) for Minecraft 1.21.1
-[16:14:11] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[16:14:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:14:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[16:14:11] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[16:14:15] [ServerMain/WARN]: Failed to load eula.txt
-[16:14:15] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-[16:14:15] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 3732ms.
